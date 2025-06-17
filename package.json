@@ -1,0 +1,18 @@
+{
+  "name": "leveluplife",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:backend": "pnpm --filter backend start",
+    "start:frontend": "pnpm --filter frontend dev",
+    "start": "concurrently \"pnpm run start:backend\" \"pnpm run start:frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/killingHail606/levelUpLife.git"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "private": false
+}
